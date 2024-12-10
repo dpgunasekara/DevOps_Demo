@@ -87,3 +87,4 @@ def send_emails_with_attachment(output_zip_file, terminal_id, formatted_date, tr
         print(f"An error occurred: {e}")
     finally:
         attachment.close()
+        print("This is checking branching")
