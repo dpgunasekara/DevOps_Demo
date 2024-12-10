@@ -82,6 +82,7 @@ def send_emails_with_attachment(output_zip_file, terminal_id, formatted_date, tr
             # No login credentials provided for anonymous access
             server.sendmail(email_from, email_to, msg.as_string())
             print("Email with attachments sent successfully!")
+            print("Email with attachments sent successfully!")
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
